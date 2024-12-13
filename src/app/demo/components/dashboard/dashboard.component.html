@@ -1,0 +1,31 @@
+<div class="grid">
+    <div class="col-12 xl:col-6">
+        <div class="card">
+            <h5>Temperatura</h5>
+            <p-chart type="line" [data]="chartDataTemperatura" [options]="chartOptions"></p-chart>
+        </div>
+    </div>
+
+    <div class="col-12 xl:col-6">
+        <div class="card">
+            <h5>Humedad</h5>
+            <p-chart type="line" [data]="chartDataHumedad" [options]="chartOptions"></p-chart>
+        </div>
+    </div>
+
+    <div class="col-12 xl:col-6">
+        <div class="card">
+            <h5>Luminosidad</h5>
+            <p-chart type="line" [data]="chartDataLuminocidad" [options]="chartOptions"></p-chart>
+        </div>
+    </div>
+
+    <div class="col-12 xl:col-6">
+        <div class="card">
+            <h5>PH del suelo</h5>
+            <p-chart type="line" [data]="chartDataPH" [options]="chartOptions"></p-chart>
+        </div>
+    </div>
+
+</div>
+

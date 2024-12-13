@@ -1,0 +1,20 @@
+{
+	"data": [
+		{
+			"id": "1000",
+			"code": "f230fh0g3",
+			"name": "Cama 1",
+			"description": "Product Description",
+			"image": "crisantemos1.jpeg",
+			"inventoryStatus": "GOOD"
+		},
+		{
+			"id": "1001",
+			"code": "nvklal433",
+			"name": "Cama 2",
+			"description": "Product Description",
+			"image": "crisantemos2.jpeg",
+			"inventoryStatus": "PROBLEM"
+		}
+	]
+}
